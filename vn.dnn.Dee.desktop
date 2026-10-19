@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Dee Offline Music
+Comment=Trình phát nhạc ngoại tuyến
+Exec=dnn-dee
+Icon=vn.dnn.Dee
+StartupWMClass=vn.dnn.Dee
+Terminal=false
+Categories=AudioVideo;Audio;Player;

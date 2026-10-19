@@ -1,0 +1,272 @@
+window {
+    font-family: "Ubuntu Sans";
+    font-size: 11pt;
+}
+
+.brand-name {
+    color: #000000;
+    font-weight: 900;
+    font-size: 12pt;
+}
+window {
+    background-color: #E9EEDF;
+    border-radius: 12px;
+}
+
+.titlebar {
+}
+
+.titlebar {
+    background-color: #C8D9B9;
+    background-image: none;
+    color: #263323;
+    border-bottom: 1px solid #C6D4BB;
+    min-height: 32px;
+}
+
+.brand {
+    color: #263323;
+}
+
+.brand-subtitle {
+    color: #52604D;
+    font-size: 12px;
+}
+
+.window-button {
+    background: transparent;
+    background-image: none;
+    color: #52604D;
+    border: 1px solid alpha(#52604D, 0.18);
+    border-radius: 8px;
+    min-width: 34px;
+    min-height: 32px;
+    padding: 0;
+    box-shadow: none;
+}
+
+.window-button:hover {
+    background: alpha(#52604D, 0.08);
+    border-color: alpha(#52604D, 0.25);
+}
+
+.close-button:hover {
+    background: #C94C4C;
+    color: white;
+}
+
+.left-panel {
+    background-color: #E2EBDD;
+    padding: 20px;
+}
+
+.mode-control {
+    background-color: #D5E1CE;
+    background-image: none;
+    color: #52604D;
+    border: 1px solid #C6D4BB;
+    border-radius: 10px;
+    min-width: 42px;
+    min-height: 38px;
+    padding: 4px;
+    box-shadow: none;
+}
+
+.mode-control:checked {
+    background-color: #718568;
+    color: #FFFFFF;
+}
+
+.mode-control:hover {
+    background-color: #C6D4BB;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #263323;
+}
+
+ .track-time {
+    color: #000000;
+    font-size: 12px;
+}
+
+.artist {
+    color: #52604D;
+}
+
+.muted {
+    color: #7D8375;
+}
+
+button {
+    border-radius: 12px;
+    padding: 8px;
+}
+
+button.music-control {
+    background: #E8EEE2;
+    background-image: none;
+    border: 1px solid #52664B;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 6px;
+    color: #293329;
+}
+
+button.music-control:hover {
+    background: #DCE8D3;
+    background-image: none;
+}
+
+/* Làm nổi bật chế độ phát đang bật */
+button.music-control.mode-active,
+button.music-control.mode-active:hover,
+button.music-control.mode-active:active {
+    background-color: #F0C36D;
+    background-image: none;
+    color: #222222;
+    border: 2px solid #9A6B13;
+    box-shadow: none;
+}
+
+button.music-control:active {
+    background: #C8D9B9;
+    background-image: none;
+}
+
+.resize-edge {
+    background: transparent;
+}
+
+.resize-corner {
+    background: transparent;
+}
+
+scale.music-scale trough {
+    background-color: #D2DDC8;
+    border: 1px solid #AAB9A0;
+    border-radius: 999px;
+    min-height: 5px;
+}
+
+scale.music-scale highlight {
+    background-color: #718568;
+    border-radius: 999px;
+}
+
+scale.music-scale slider {
+    background-color: #718568;
+    border: 1px solid #34452F;
+    min-width: 12px;
+    min-height: 12px;
+    border-radius: 999px;
+    box-shadow: none;
+}
+
+
+/* Ô tìm kiếm */
+.left-panel entry,
+.left-panel searchentry {
+    background-color: #F5F7F0;
+    color: #293329;
+    border: 1px solid #C6D4BB;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.left-panel entry:focus,
+.left-panel searchentry:focus {
+    border-color: #52664B;
+    box-shadow: none;
+}
+
+/* Menu popup đồng bộ màu Dee */
+.left-panel popover,
+popover.menu-popover {
+    background: #E8EEE2;
+    color: #263326;
+    border: 1px solid #AAB9A0;
+    border-radius: 12px;
+}
+
+popover contents {
+    background: #E8EEE2;
+    border: none;
+    border-radius: 12px;
+}
+
+popover button {
+    background: transparent;
+    background-image: none;
+    color: #263326;
+    border: none;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+popover button:hover {
+    background: #D2DDC8;
+    background-image: none;
+    color: #263326;
+}
+
+popover label {
+    color: #263326;
+}
+
+/* Nút menu ba gạch */
+.left-panel menubutton > button {
+    background: #E8EEE2;
+    background-image: none;
+    color: #34452F;
+    border: 1px solid #AAB9A0;
+    border-radius: 10px;
+    box-shadow: none;
+    min-width: 34px;
+    min-height: 34px;
+    padding: 0;
+}
+
+.left-panel menubutton > button:hover {
+    background: #DCE8D3;
+    background-image: none;
+}
+
+/* Danh sách bài hát */
+.left-panel list {
+    background: transparent;
+}
+
+.left-panel row {
+    background: #EEF2E8;
+    color: #293329;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.left-panel row:selected {
+    background: #C8D9B9;
+    color: #263323;
+}
+
+.left-panel row:hover:not(:selected) {
+    background: #E1EAD9;
+}
+
+
+/* ---- Bổ sung cho bản Rust ---- */
+.repeat-one-badge {
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.dialog-text {
+    color: #202020;
+}
+
+.dialog-key {
+    color: #202020;
+    font-weight: bold;
+}
